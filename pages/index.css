@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #13171c;
+}
+/*bienvenida */
+.portfolio {
+  background-color: #13171c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.h2-bienvenida-portfolio {
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.bienvenida-portfolio {
+  display: block;
+  align-items: center;
+  padding: 20px;
+}
+
+.h2-parte1 {
+  color: white;
+  font-size: 60px;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+
+.h2-parte2 {
+  color: aqua;
+  font-size: 60px;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+/*media bienvenida*/
+@media (min-width: 400px) {
+  .bienvenida-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .h2-bienvenida-portfolio {
+    margin: 0;
+    text-align: left;
+    margin: 0;
+  }
+
+  .imagen-bienvenida-portfolio {
+    margin-left: 100px;
+    width: 363px;
+    height: 340px;
+    max-width: 80%;
+  }
+
+  .h2-parte1 {
+    font-size: 96px;
+  }
+
+  .h2-parte2 {
+    font-size: 96px;
+  }
+}
+
+/* soy marce */
+.imagen-bienvenida-portfolio {
+  width: 219px;
+  height: 211px;
+  margin-top: 20px;
+}
+
+.presentacion-portfolio {
+  background-color: #192130;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h3-presentacion-portfolio {
+  color: white;
+  font-size: 42px;
+  margin: 0;
+  padding: 70px 60px 29px 45px;
+}
+
+.p-presentacion-portfolio {
+  color: white;
+  font-size: 18px;
+  padding: 0px 45px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.imagen-presentacion-portfolio {
+  width: 295px;
+  height: 241px;
+  margin-bottom: 112px;
+}
+/*media soy marce*/
+@media (min-width: 400px) {
+  .presentacion-portfolio {
+    flex-direction: row;
+    height: 934px;
+    align-items: center;
+    justify-content: center;
+    padding: 260px 125px;
+    display: flex;
+  }
+  .presentacion-portfolio-contenedor {
+    display: block;
+    padding: 0px 177px 13px 45px;
+  }
+  .imagen-presentacion-portfolio {
+    margin-bottom: 0;
+    width: 623px;
+    height: 415px;
+  }
+  .h3-presentacion-portfolio {
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  .p-presentacion-portfolio {
+    max-width: 600px;
+  }
+}
+
+/*mis servicios*/
+.contenedor-tarjeta {
+  background-color: #13171c;
+  background-image: url(doodle.png);
+}
+
+.mis-servicios-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 65px;
+}
+
+.mis-servicios-titulo-1 {
+  color: white;
+  font-size: 42px;
+  margin: 0;
+}
+
+.mis-servicios-titulo-2 {
+  font-size: 42px;
+  color: aqua;
+  margin: 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #393e4680;
+  width: 324px;
+  height: 481px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-bottom: 68px;
+}
+
+.card-title {
+  color: white;
+  font-size: 33px;
+}
+
+.card-description {
+  color: white;
+  font-size: 16px;
+}
+.ver-mas-contenedor {
+  display: none;
+}

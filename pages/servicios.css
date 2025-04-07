@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.presentacion-servicio {
+  background-color: #13171c;
+  padding-bottom: 128px;
+}
+.h2-servicios {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 95px;
+}
+.mis-servicios-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 65px;
+}
+
+.mis-servicios-titulo-1 {
+  color: white;
+  font-size: 62px;
+  margin: 0;
+}
+
+.mis-servicios-titulo-2 {
+  font-size: 62px;
+  color: aqua;
+  margin: 0;
+}
+.imagen-portafolio-servicio {
+  display: block;
+  margin: 0 auto;
+  padding: 39px 0 0 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100%;
+  background-color: #13171c;
+  background-image: url(doodle.png);
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #393e4680;
+  width: 324px;
+  height: 469px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 75px;
+}
+.card-title {
+  color: white;
+  font-size: 33px;
+}
+.card-description {
+  color: white;
+  font-size: 16px;
+}
+.ver-mas-contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+  margin-bottom: 65px;
+}
+.boton-ver-mas {
+  border: none;
+  background: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 5px;
+  width: 129px;
+  height: 47px;
+  font-size: 18px;
+}
+@media (min-width: 400px) {
+  .presentacion-servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 40px;
+  }
+
+  .h2-servicios {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .imagen-portafolio-servicio {
+    margin: 0;
+    padding: 0;
+  }
+}

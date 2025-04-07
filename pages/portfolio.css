@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #393e4680;
+  width: 324px;
+  height: 469px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 75px;
+}
+.descripcion-portafolio {
+  color: white;
+  font-size: 16px;
+}
+.titulo-portafolio {
+  color: white;
+  font-size: 33px;
+}
+.servicios-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100%;
+  background-color: #13171c;
+  background-image: url(doodle.png);
+  margin: 0;
+}
+.presentacion-servicio {
+  background-color: #13171c;
+  padding-bottom: 128px;
+}
+.h2-portafolio {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 95px;
+}
+.imagen-portafolio-servicio {
+  display: block;
+  margin: 0 auto;
+  padding: 39px 0 0 0;
+}
+.mis-portafolio-titulo-1 {
+  color: white;
+  font-size: 62px;
+  margin: 0;
+}
+.mis-portafolio-titulo-2 {
+  font-size: 62px;
+  color: aqua;
+  margin: 0;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #393e4680;
+  width: 324px;
+  height: 469px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 75px;
+}
+.ver-mas-contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+  margin-bottom: 65px;
+}
+.boton-ver-mas {
+  border: none;
+  background: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 5px;
+  width: 129px;
+  height: 47px;
+  font-size: 18px;
+}
+@media (min-width: 400px) {
+  .presentacion-servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 40px;
+  }
+
+  .h2-portafolio {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .imagen-portafolio-servicio {
+    margin: 0;
+    padding: 0;
+  }
+}
